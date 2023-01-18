@@ -10,7 +10,4 @@ void main() {
 
   map.entries.forEach((e) => list.add(e.value));
   print(list);
-
-  list = map.entries.map((e) => list.add(e.value)).toList();
-  print(list);
 }
