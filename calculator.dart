@@ -21,7 +21,7 @@ void main(List<String> arguments) {
       print(num1 * num2);
       break;
     case "/":
-      print(num1 / num2);
+      num2!=0? print(num1 / num2):print("Invalid operation, Dividing by zero");
       break;
     default:
       print('Please enter right opeartor');
